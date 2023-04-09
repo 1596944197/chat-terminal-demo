@@ -1,21 +1,13 @@
-import { Configuration, OpenAIApi } from 'openai'
-import dotenv from 'dotenv'
 import rl from "node:readline"
-
-dotenv.config()
+import { api } from "./init.mjs"
 
 const name = process.argv[2] || 'MEI'
 
-const config = new Configuration({
-  apiKey: process.env.API_KEY,
-})
 
 const readline = rl.createInterface({
   input: process.stdin,
   output: process.stdout,
 })
-
-const api = new OpenAIApi(config)
 
 const messages = [
   {
