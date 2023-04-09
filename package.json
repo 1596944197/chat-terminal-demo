@@ -1,0 +1,18 @@
+{
+  "name": "chat-by-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.mjs",
+  "scripts": {
+    "dev": "node ./index.mjs"
+  },
+  "author": "MEI 1596944197@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "dotenv": "^16.0.3"
+  }
+}
