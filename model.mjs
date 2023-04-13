@@ -1,0 +1,1 @@
+export const model = "davinci:ft-personal-2023-04-13-03-45-45"
